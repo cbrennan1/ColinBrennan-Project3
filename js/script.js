@@ -156,3 +156,24 @@ function initMap()
       }]
     }]
   });
+
+
+  var contentString = '<p>This is where I go to school<p>';
+  var infowindow = new google.maps.InfoWindow(
+  {
+    content: contentString
+  });
+  var marker = new google.maps.Marker(
+  {
+    position: iit,
+    map: map,
+    title: 'Illinois Institute of Technology'
+  });
+  marker.addListener('click', function ()
+  {
+    infowindow.open(map, marker);
+    map.setZoom(18);
+    map.setCenter(marker.getPosition())
+  });
+
+}

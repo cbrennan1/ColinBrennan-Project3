@@ -1,0 +1,15 @@
+@media only screen and (max-width: 400px) {
+
+body {
+     background-color: #D5BC1C; 
+     background-size: cover;
+     text-align: center;
+}
+  h1 {
+     font-style: normal;
+     font-family: "Calibri";
+     color: white;
+	 background-color: black;
+     text-align: left;
+	 
+}

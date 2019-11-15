@@ -1,0 +1,87 @@
+body {
+  background-color: LightBlue;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+nav {
+  border: 10px;
+  border-width: 10px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+nav li {
+  display:inline;
+}
+nav a {
+  display:inline-block;
+  padding:10px;
+}
+p {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #403A23 solid 3px;
+}
+.list {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.basic {
+	text-align: center;
+}
+.informaltitle {
+  color: #FFFFFF;
+  text-align: center;
+  padding: .25em;
+  background-color: #fbaf08;
+  border: black solid 2px;
+  font-size: 1.5em;
+}
+h1 {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+h2, h3, h4 {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+#img1 {
+  height: 300px;
+  width: 400px;
+}
+li {
+  font-size: 15px;
+  margin-left: 2px;
+  list-style-type: disc;
+}
+.resume {
+  color: black;
+  font-weight: bold;
+}
+.resume-h2-4 {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+.resume-center-h2-4 {
+  text-align: center;
+}

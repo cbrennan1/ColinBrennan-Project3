@@ -6,6 +6,14 @@
       <link rel="stylesheet" href="css/reset.css"/>
       <link rel="stylesheet" href="css/style.css"/>
        <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+	   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	  <script>
+        $(document).ready(function(){
+        $('.slider').bxSlider();
+        });
+      </script>
    </head>
    <body>
       <main>
@@ -18,6 +26,12 @@
             </ul>
          </nav>
          <div>
+		 <h2>Slidshow of Wiz</h2>
+		 <div class="slider">
+         <div><img src="images/wiz2.jpg" alt="Wiz">Profile Shot</div>
+		 <div><img src="images/wiz3.jpg" alt="WizRap">Wiz Rapping</div>
+         <div><img src="images/wiz4.png" alt="WizTats">Wiz Tattoos</div>
+         </div>
             <h1 class="background1">Wiz Khalifa</h1>
             <img src="images/wiz.jpg" alt="WizMan" id="img1" class="center">
             <h1 class="informaltitle"> Origin </h1>
